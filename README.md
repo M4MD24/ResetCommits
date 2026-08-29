@@ -1,4 +1,4 @@
-# Git History Cleaner
+# Reset Commits
 
 A Bash script for cleaning a Git branch history by replacing the existing commit history with a single commit while preserving the current project files.
 
