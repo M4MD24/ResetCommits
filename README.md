@@ -15,6 +15,14 @@ A Bash script for cleaning a Git branch history by replacing the existing commit
 - Recreates the branch with exactly one commit.
 - Displays the command required to overwrite the remote history safely.
 
+## Current Requirements
+
+- Python 3.14
+- Bash
+- Git
+- A valid Git repository
+- A clean working tree with no staged or unstaged changes
+
 ## Usage
 
 Make the script executable:
@@ -46,13 +54,6 @@ If you only want to set a custom message for the current directory:
 ```bash
 ./reset-git-history.sh "" "Your new commit message"
 ```
-
-## Requirements
-
-- Bash
-- Git
-- A valid Git repository
-- A clean working tree with no staged or unstaged changes
 
 ## How It Works
 
